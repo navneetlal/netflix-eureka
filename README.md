@@ -10,9 +10,9 @@ As the Github repo for **Netflix's Eureka** registry says itself: “**Eureka** 
 
  - [Link to Neflix Eureka github](https://github.com/Netflix/eureka)
  
- ## How to use this image?
- Using of this image is very simple. You just have to pull this image and run by publishing the desired port.
- ```
+## How to use this image?
+Using of this image is very simple. You just have to pull this image and run by publishing the desired port.
+```
 docker run -p 8761:8761 navneetlalg/eureka:latest
 ```
 OR you can also use `docker-compose.yml` to create a service. This is the prefered way since you will require to connect other services to **Eureka**
